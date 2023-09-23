@@ -1,9 +1,9 @@
 <template>
-  <div class="hero_container  ">
-    <nav class="nav_section ">
-      <img  class="logo_image" src="2mlogo-removebg-preview.png" alt="">
+  <div class="hero_container">
+    <nav class="nav_section">
+      <img class="logo_image" src="2mlogo-removebg-preview.png" alt="">
       <ul class="nav_links_container">
-        <li>Home</li>
+        <li> <a href="/">Home</a></li>
         <li>Movies</li>
         <li>Shows</li>
         <li>Documentary</li>
@@ -39,16 +39,16 @@ export default {
 <style>
 .hero_container {
   width: 100vw;
-  height: 60%;
+  height: 70%;
 
 }
 .nav_section {
-  height: 15%;
+  height: 20%;
   border-bottom:  0.5 px solid whitesmoke;
   display: flex;
   align-items: center;
   padding: 2rem 0 1.25rem 0;
-  background-color: #111C30;
+  background-color: #111C2F;
   position: relative;
   z-index: 1;
 }
@@ -71,15 +71,15 @@ padding-left: 1.25rem;
   color: #4EDAFE;
 }
 .circle_profile {
-width: 3rem;
+width: 2.75rem;
 border-radius: 50%;
 overflow: hidden;
 margin: 0 3rem 0 auto ;
 cursor: pointer;
 }
 .circle-profile img {
-  max-width: 100%; 
-  max-height: 100%; 
+  max-width: 40%; 
+  max-height: 40%; 
 }
 .notification{
   margin-left: 23rem;
@@ -88,7 +88,7 @@ cursor: pointer;
 .hero_image img {
   width: 100vw;
   height: 600px;
-  margin-top: -6rem ;
+  margin-top: -7rem ;
   
 }
 
